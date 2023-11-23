@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "477EAT77S3.com.yandex.pay.merchant.sample",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
