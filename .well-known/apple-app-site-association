@@ -22,7 +22,7 @@
                 ],
                 "components": [
                     {
-                        "/": "/payment",
+                        "/": "*",
                         "?": {
                             "webOnly": "false"
                         }
