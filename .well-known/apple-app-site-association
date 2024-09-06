@@ -1,11 +1,39 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "EK7Z26L6D4.com.yandex.YandexPaySample",
-        "paths": ["*"]
-      }
-    ]
-  }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "EK7Z26L6D4.com.yandex.YandexPaySDKBrowserSampleApp",
+                    "8NA98GZ448.ru.yandex.mobile.auth.sample.debug",
+                    "X9DCYK36Q2.ru.yandex.mobile.auth.sample",
+                    "EK7Z26L6D4.ru.yandex.mobile.auth.sample",
+                    "477EAT77S3.com.yandex.bank.idev",
+                    "PGB36VEQ8D.com.yandex.bank.idev",
+                    "PGB36VEQ8D.ru.yandex.mobile.dev",
+                    "PGB36VEQ8D.ru.yandex.mobile.search.develop",
+                    "K55RMZ8ATD.ru.yandex.mobile.search.develop",
+                    "X9DCYK36Q2.com.yandex.bank.inhouse",
+                    "X9DCYK36Q2.ru.yandex.mobile.inhouse",
+                    "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
+                    "CXV565V7MX.com.yandex.fintech.bank-app",
+                    "ZGH7X9AJBC.com.yandex.fintech.bank-app",
+                    "PGB36VEQ8D.ru.yandex.mobile",
+                    "PGB36VEQ8D.ru.yandex.mobile.search"
+                ],
+                "components": [
+                    {
+                        "/": "/payment"
+                    },
+                    {
+                        "?": {
+                            "webOnly": true
+                        },
+                        "exclude": true,
+                        "comment": "Matches any URL with a parameter `webOnly=true` and instructs the system not to open it as a universal link."
+                    }
+                ]
+            }
+        ]
+    }
 }
