@@ -26,7 +26,7 @@
                     },
                     {
                         "?": {
-                            "webOnly": true
+                            "webOnly": "true"
                         },
                         "exclude": true,
                         "comment": "Matches any URL with a parameter `webOnly=true` and instructs the system not to open it as a universal link."
