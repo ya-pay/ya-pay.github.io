@@ -22,9 +22,6 @@
                 ],
                 "components": [
                     {
-                        "/": "/payment"
-                    },
-                    {
                         "?": {
                             "webOnly": "true"
                         },
