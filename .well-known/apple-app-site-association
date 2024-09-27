@@ -1,39 +1,67 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appIDs": [
-                    "EK7Z26L6D4.com.yandex.YandexPaySDKBrowserSampleApp",
-                    "8NA98GZ448.ru.yandex.mobile.auth.sample.debug",
-                    "X9DCYK36Q2.ru.yandex.mobile.auth.sample",
-                    "EK7Z26L6D4.ru.yandex.mobile.auth.sample",
-                    "477EAT77S3.com.yandex.bank.idev",
-                    "PGB36VEQ8D.com.yandex.bank.idev",
-                    "PGB36VEQ8D.ru.yandex.mobile.dev",
-                    "PGB36VEQ8D.ru.yandex.mobile.search.develop",
-                    "K55RMZ8ATD.ru.yandex.mobile.search.develop",
-                    "X9DCYK36Q2.com.yandex.bank.inhouse",
-                    "X9DCYK36Q2.ru.yandex.mobile.inhouse",
-                    "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
-                    "CXV565V7MX.com.yandex.fintech.bank-app",
-                    "ZGH7X9AJBC.com.yandex.fintech.bank-app",
-                    "PGB36VEQ8D.ru.yandex.mobile",
-                    "PGB36VEQ8D.ru.yandex.mobile.search"
-                ],
-                "components": [
-                    {
-                        "/": "/payment",
-                        "?": {
-                            "webOnly": "true"
-                        },
-                        "exclude": true
-                    },
-                    {
-                        "/": "/payment"
-                    }
-                ]
-            }
+  "applinks": {
+    "details": [
+      {
+        "appIDS": [
+          "CXV565V7MX.com.yandex.fintech.bank-app",
+          "ZGH7X9AJBC.com.yandex.fintech.bank-app"
+        ],
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "contractVersion": "1"
+            },
+            "exclude": true,
+            "comment": "Do not need to open old universal links in bank app"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment"
+          }
         ]
-    }
+      },
+      {
+        "appIDs": [
+          "EK7Z26L6D4.com.yandex.YandexPaySDKBrowserSampleApp",
+          "8NA98GZ448.ru.yandex.mobile.auth.sample.debug",
+          "X9DCYK36Q2.ru.yandex.mobile.auth.sample",
+          "EK7Z26L6D4.ru.yandex.mobile.auth.sample",
+          "477EAT77S3.com.yandex.bank.idev",
+          "PGB36VEQ8D.com.yandex.bank.idev",
+          "WSFTBG7L56.ru.yandex.taxi.develop",
+          "PGB36VEQ8D.ru.yandex.mobile.dev",
+          "PGB36VEQ8D.ru.yandex.mobile.search.develop",
+          "K55RMZ8ATD.ru.yandex.mobile.search.develop",
+          "X9DCYK36Q2.com.yandex.bank.inhouse",
+          "X9DCYK36Q2.ru.yandex.taxi.inhouse",
+          "X9DCYK36Q2.ru.yandex.mobile.inhouse",
+          "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
+          "DYW478FCA7.ru.yandex.ytaxi",
+          "PGB36VEQ8D.ru.yandex.mobile",
+          "PGB36VEQ8D.ru.yandex.mobile.search"
+        ],
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      }
+    ]
+  }
 }
