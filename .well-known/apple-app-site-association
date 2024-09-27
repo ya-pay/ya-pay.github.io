@@ -14,8 +14,7 @@
             "?": {
               "contractVersion": "1"
             },
-            "exclude": true,
-            "comment": "Do not need to open old universal links in bank app"
+            "comment": "Temporarily handle only urls with contract version 1 for bank"
           },
           {
             "/": "/payment",
