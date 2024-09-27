@@ -12,20 +12,17 @@
           {
             "/": "/payment",
             "?": {
-              "contractVersion": "1"
-            },
-            "comment": "Temporarily handle only urls with contract version 1 for bank"
-          },
-          {
-            "/": "/payment",
-            "?": {
               "webOnly": "true"
             },
             "exclude": true,
             "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
           },
           {
-            "/": "/payment"
+            "/": "/payment",
+            "?": {
+              "contractVersion": "1"
+            },
+            "comment": "Temporarily handle only urls with contract version 1 for bank"
           }
         ]
       },
