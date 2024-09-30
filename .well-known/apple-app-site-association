@@ -3,8 +3,6 @@
     "details": [
       {
         "appIDs": [
-          "477EAT77S3.com.yandex.bank.idev",
-          "PGB36VEQ8D.com.yandex.bank.idev",
           "CXV565V7MX.com.yandex.fintech.bank-app",
           "ZGH7X9AJBC.com.yandex.fintech.bank-app"
         ],
@@ -32,6 +30,8 @@
           "8NA98GZ448.ru.yandex.mobile.auth.sample.debug",
           "X9DCYK36Q2.ru.yandex.mobile.auth.sample",
           "EK7Z26L6D4.ru.yandex.mobile.auth.sample",
+          "477EAT77S3.com.yandex.bank.idev",
+          "PGB36VEQ8D.com.yandex.bank.idev",
           "WSFTBG7L56.ru.yandex.taxi.develop",
           "PGB36VEQ8D.ru.yandex.mobile.dev",
           "PGB36VEQ8D.ru.yandex.mobile.search.develop",
