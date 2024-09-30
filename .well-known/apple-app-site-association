@@ -19,9 +19,6 @@
           },
           {
             "/": "/payment",
-            "?": {
-              "contractVersion": "1"
-            },
             "comment": "Temporarily handle only urls with contract version 1 for bank"
           }
         ]
