@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDS": [
+        "appIDs": [
           "477EAT77S3.com.yandex.bank.idev",
           "PGB36VEQ8D.com.yandex.bank.idev",
           "CXV565V7MX.com.yandex.fintech.bank-app",
@@ -19,6 +19,9 @@
           },
           {
             "/": "/payment",
+            "?": {
+              "contractVersion": "1"
+            },
             "comment": "Temporarily handle only urls with contract version 1 for bank"
           }
         ]
