@@ -445,29 +445,6 @@
       },
       {
         "appIDs": [
-          "CXV565V7MX.com.yandex.fintech.bank-app",
-          "ZGH7X9AJBC.com.yandex.fintech.bank-app"
-        ],
-        "components": [
-          {
-            "/": "/payment",
-            "?": {
-              "webOnly": "true"
-            },
-            "exclude": true,
-            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
-          },
-          {
-            "/": "/payment",
-            "?": {
-              "contractVersion": "1"
-            },
-            "comment": "Temporarily handle only urls with contract version 1 for bank"
-          }
-        ]
-      },
-      {
-        "appIDs": [
           "EK7Z26L6D4.com.yandex.YandexPaySDKBrowserSampleApp",
           "8NA98GZ448.ru.yandex.mobile.auth.sample.debug",
           "X9DCYK36Q2.ru.yandex.mobile.auth.sample",
@@ -499,7 +476,9 @@
             "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
           },
           {
-            "/": "/payment"
+            "/": "/payment",
+            "?": {},
+            "comment": "Handles /payment path with any params"
           }
         ]
       }
