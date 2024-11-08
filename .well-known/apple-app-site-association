@@ -192,7 +192,10 @@
         ]
       },
       {
-        "appID": "DYW478FCA7.ru.yandex.blue.market",
+        "appIDs": [
+          "DYW478FCA7.ru.yandex.blue.market",
+          "EK7Z26L6D4.ru.yandex.blue.market.inhouse"
+        ],
         "components": [
           {
             "/": "/payment",
