@@ -32,21 +32,14 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.fintech.bank-app and any"
+            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.fintech.bank-app"
           },
           {
             "/": "/payment"
-	  }	
+	  }
         ]
       },
       {
@@ -70,21 +63,14 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	      "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.YandexPaySDKBrowserSampleApp and any"
+            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.YandexPaySDKBrowserSampleApp"
           },
           {
             "/": "/payment"
-	  }	
+	  }
         ]
       },
       {
@@ -119,10 +105,10 @@
           {
             "/": "/payment",
             "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.auth.sample and any"
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.auth.sample"
           },
           {
             "/": "/payment"
@@ -154,18 +140,11 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.bank and any"
-	  },
+            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.bank"
+          },
           {
             "/": "/payment"
 	  }
@@ -195,18 +174,11 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.taxi and any"
-	  },
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.taxi"
+          },
           {
             "/": "/payment"
 	  }
@@ -237,18 +209,11 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile and any"
-	  },
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile"
+          },
           {
             "/": "/payment"
 	  }
@@ -280,18 +245,11 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.search and any"
-	  },
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.search"
+          },
           {
             "/": "/payment"
 	  }
@@ -318,17 +276,10 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.ytaxi and any"
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.ytaxi"
           },
           {
             "/": "/payment"
@@ -359,17 +310,10 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
-            },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	       "specifiedPreferableApp": "true"
+	      "preferableApp": "?*"
             },
 	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.blue.market and any"
+            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.blue.market"
           },
           {
             "/": "/payment"
