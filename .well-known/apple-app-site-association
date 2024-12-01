@@ -2,47 +2,6 @@
   "applinks": {
     "details": [
       {
-        "appIDs": [
-          "CXV565V7MX.com.yandex.fintech.bank-app",
-          "ZGH7X9AJBC.com.yandex.fintech.bank-app"
-        ],
-        "components": [
-          {
-            "/": "/payment",
-            "?": {
-              "webOnly": "true"
-            },
-            "exclude": true,
-            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
-          },
-          {
-            "/": "/payment",
-            "?": {
-              "contractVersion": "1"
-            },
-            "comment": "Handle only URLs with contract version 1 for bank"
-          },
-          {
-            "/": "/payment",
-            "?": {
-              "preferableApp": "com.yandex.fintech.bank-app"
-            },
-            "comment": "Open with com.yandex.fintech.bank-app if installed"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	      "preferableApp": "?*"
-            },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.fintech.bank-app"
-          },
-          {
-            "/": "/payment"
-	  }
-        ]
-      },
-      {
         "appID": "EK7Z26L6D4.com.yandex.YandexPaySDKBrowserSampleApp",
         "components": [
           {
@@ -63,14 +22,14 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.YandexPaySDKBrowserSampleApp"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match com.yandex.YandexPaySDKBrowserSampleApp"
           },
           {
             "/": "/payment"
-	  }
+          }
         ]
       },
       {
@@ -98,28 +57,20 @@
           {
             "/": "/payment",
             "?": {
-              "preferableApp": "any"
+              "preferableApp": "?*"
             },
-            "comment": "Open URL with preferableApp=any"
-          },
-          {
-            "/": "/payment",
-            "?": {
-	      "preferableApp": "*"
-            },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.auth.sample"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.auth.sample"
           },
           {
             "/": "/payment"
-	  }	
+          }
         ]
       },
       {
         "appIDs": [
           "477EAT77S3.com.yandex.bank.idev",
-          "PGB36VEQ8D.com.yandex.bank.idev",
-          "X9DCYK36Q2.com.yandex.bank.inhouse"
+          "PGB36VEQ8D.com.yandex.bank.idev"
         ],
         "components": [
           {
@@ -140,20 +91,19 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match com.yandex.bank"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match com.yandex.bank"
           },
           {
             "/": "/payment"
-	  }
+          }
         ]
       },
       {
         "appIDs": [
-          "WSFTBG7L56.ru.yandex.taxi.develop",
-          "X9DCYK36Q2.ru.yandex.taxi.inhouse"
+          "WSFTBG7L56.ru.yandex.taxi.develop"
         ],
         "components": [
           {
@@ -174,21 +124,19 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.taxi"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.taxi"
           },
           {
             "/": "/payment"
-	  }
+          }
         ]
       },
       {
         "appIDs": [
-          "PGB36VEQ8D.ru.yandex.mobile.dev",
-          "X9DCYK36Q2.ru.yandex.mobile.inhouse",
-          "PGB36VEQ8D.ru.yandex.mobile"
+          "PGB36VEQ8D.ru.yandex.mobile.dev"
         ],
         "components": [
           {
@@ -209,22 +157,20 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile"
           },
           {
             "/": "/payment"
-	  }
+          }
         ]
       },
       {
         "appIDs": [
           "PGB36VEQ8D.ru.yandex.mobile.search.develop",
-          "K55RMZ8ATD.ru.yandex.mobile.search.develop",
-          "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
-          "PGB36VEQ8D.ru.yandex.mobile.search"
+          "K55RMZ8ATD.ru.yandex.mobile.search.develop"
         ],
         "components": [
           {
@@ -245,14 +191,265 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.mobile.search"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.search"
           },
           {
             "/": "/payment"
-	  }
+          }
+        ]
+      },
+      {
+        "appID": "477EAT77S3.ru.yandex.blue.market",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.blue.market"
+            },
+            "comment": "Open with ru.yandex.blue.market if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.blue.market"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.com.yandex.bank.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "com.yandex.bank"
+            },
+            "comment": "Open with com.yandex.bank if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match com.yandex.bank"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.ru.yandex.taxi.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.taxi"
+            },
+            "comment": "Open with ru.yandex.taxi if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.taxi"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.ru.yandex.mobile.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobilee"
+            },
+            "comment": "Open with ru.yandex.mobilee if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobilee"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "X9DCYK36Q2.ru.yandex.mobile.search.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobile.search"
+            },
+            "comment": "Open with ru.yandex.mobile.search if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.search"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "EK7Z26L6D4.ru.yandex.blue.market.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.blue.market"
+            },
+            "comment": "Open with ru.yandex.blue.market if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.blue.market"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "EK7Z26L6D4.ru.yandex.mobile.music.inhouse",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobile.music"
+            },
+            "comment": "Open with ru.yandex.mobile.music if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.music"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "CXV565V7MX.com.yandex.fintech.bank-app",
+          "ZGH7X9AJBC.com.yandex.fintech.bank-app"
+        ],
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "com.yandex.fintech.bank-app"
+            },
+            "comment": "Open with com.yandex.fintech.bank-app if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match com.yandex.fintech.bank-app"
+          },
+          {
+            "/": "/payment"
+          }
         ]
       },
       {
@@ -276,21 +473,80 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.ytaxi"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.ytaxi"
           },
           {
             "/": "/payment"
-	  }	
+          }
         ]
       },
       {
-        "appIDs": [
-          "DYW478FCA7.ru.yandex.blue.market",
-          "EK7Z26L6D4.ru.yandex.blue.market.inhouse"
-        ],
+        "appID": "PGB36VEQ8D.ru.yandex.mobile",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobile"
+            },
+            "comment": "Open with ru.yandex.mobile if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "PGB36VEQ8D.ru.yandex.mobile.search",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobile.search"
+            },
+            "comment": "Open with ru.yandex.mobile.search if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.search"
+          },
+          {
+            "/": "/payment"
+          }
+        ]
+      },
+      {
+        "appID": "DYW478FCA7.ru.yandex.blue.market",
         "components": [
           {
             "/": "/payment",
@@ -310,14 +566,53 @@
           {
             "/": "/payment",
             "?": {
-	      "preferableApp": "?*"
+              "preferableApp": "?*"
             },
-	    "exclude": true,
-            "comment": "Not opening URL with specified preferableApp the did not match ru.yandex.blue.market"
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.blue.market"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.blue.market"
           },
           {
             "/": "/payment"
-	  }
+          }
+        ]
+      },
+      {
+        "appID": "ZGH7X9AJBC.ru.yandex.mobile.music",
+        "components": [
+          {
+            "/": "/payment",
+            "?": {
+              "webOnly": "true"
+            },
+            "exclude": true,
+            "comment": "Matches a URL with /payment path and with webOnly=true parameter and instructs the system NOT to open it as a universal link."
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "ru.yandex.mobile.music"
+            },
+            "comment": "Open with ru.yandex.mobile.music if installed"
+          },
+          {
+            "/": "/payment",
+            "?": {
+              "preferableApp": "?*"
+            },
+            "exclude": true,
+            "comment": "Not opening URL with specified preferableApp that did not match ru.yandex.mobile.music"
+          },
+          {
+            "/": "/payment"
+          }
         ]
       }
     ]
